@@ -86,6 +86,10 @@
     {
       "SystemName": "ExternalAuth.Facebook",
       "Version": "1.79"
+    },
+    {
+      "SystemName": "SamplePlugin",
+      "Version": "1.0"
     }
   ],
   "PluginNamesToUninstall": [],

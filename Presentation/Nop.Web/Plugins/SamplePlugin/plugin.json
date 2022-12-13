@@ -1,0 +1,11 @@
+﻿{
+  "Group": "Sample plugin",
+  "FriendlyName": "Plugin friendly name",
+  "SystemName": "SamplePlugin",
+  "Version": "1.0",
+  "SupportedVersions": [ "4.60" ],
+  "Author": "test team",
+  "DisplayOrder": 1,
+  "FileName": "Nop.Plugin.SamplePlugin.dll",
+  "Description": "Test plugin"
+}

@@ -1,0 +1,32 @@
+﻿@model SamplePluginModel
+
+@using Nop.Plugin.SamplePlugin.Models
+
+@{
+    Layout = "_ConfigurePlugin";
+}
+
+<form asp-controller="SamplePlugin" asp-action="Configure" method="post">
+    <nop-cards id="sendinblue-cards">
+        <div class="card-body">
+            <div class="card card-default">
+                <div class="card-body">
+                    <div class="form-group row">
+                        <div class="col-md-3">
+                            <nop-label asp-for="Text" />
+                        </div>
+                        <div class="col-md-9">
+                            <nop-editor asp-for="Text" />
+                            <span asp-validation-for="Text"></span>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-md-9 offset-md-3">
+                            <button type="submit" name="save" class="btn btn-primary">@T("Admin.Common.Save")</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nop-cards>
+</form>
