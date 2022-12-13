@@ -78,6 +78,10 @@
                         <div class="product-name">
                             <h1>
                                 @Model.Name
+                                @if (!string.IsNullOrEmpty(Model.Author))
+                                {
+                                    @Html.Raw($" ({Model.Author})")
+                                }
                             </h1>
                         </div>
                         @if (!string.IsNullOrEmpty(Model.ShortDescription))

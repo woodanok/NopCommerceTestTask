@@ -1505,7 +1505,8 @@ namespace Nop.Web.Factories
                 DisplayDiscontinuedMessage = !product.Published && _catalogSettings.DisplayDiscontinuedMessageForUnpublishedProducts,
                 AvailableEndDate = product.AvailableEndDateTimeUtc,
                 VisibleIndividually = product.VisibleIndividually,
-                AllowAddingOnlyExistingAttributeCombinations = product.AllowAddingOnlyExistingAttributeCombinations
+                AllowAddingOnlyExistingAttributeCombinations = product.AllowAddingOnlyExistingAttributeCombinations,
+                Author = product.Author
             };
 
             //automatically generate product description?

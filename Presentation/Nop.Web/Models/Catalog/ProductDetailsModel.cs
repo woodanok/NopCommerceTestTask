@@ -121,6 +121,8 @@ namespace Nop.Web.Models.Catalog
 
         public bool AllowAddingOnlyExistingAttributeCombinations { get; set; }
 
+        public string Author { get; set; }
+
         #region Nested Classes
 
         public partial record ProductBreadcrumbModel : BaseNopModel

@@ -476,6 +476,9 @@ namespace Nop.Web.Areas.Admin.Models.Catalog
         public ProductAttributeMappingSearchModel ProductAttributeMappingSearchModel { get; set; }
 
         public ProductAttributeCombinationSearchModel ProductAttributeCombinationSearchModel { get; set; }
+
+        [NopResourceDisplayName("Admin.Catalog.Products.Fields.Author")]
+        public string Author { get; set; }
         #endregion
     }
 
@@ -503,5 +506,8 @@ namespace Nop.Web.Areas.Admin.Models.Catalog
 
         [NopResourceDisplayName("Admin.Catalog.Products.Fields.SeName")]
         public string SeName { get; set; }
+
+        [NopResourceDisplayName("Admin.Catalog.Products.Fields.Author")]
+        public string Author { get; set; }
     }
 }
