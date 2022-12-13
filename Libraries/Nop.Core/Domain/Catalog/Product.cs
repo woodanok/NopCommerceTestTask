@@ -612,5 +612,10 @@ namespace Nop.Core.Domain.Catalog
             get => (RentalPricePeriod)RentalPricePeriodId;
             set => RentalPricePeriodId = (int)value;
         }
+
+        /// <summary>
+        /// Gets or sets the author
+        /// </summary>
+        public string Author { get; set; }
     }
 }
